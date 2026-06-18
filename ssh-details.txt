@@ -1,0 +1,19 @@
+SSH (Secure Shell)
+
+Definition:
+SSH is a secure network protocol used to remotely access and manage Linux servers.
+
+Default Port:
+22
+
+Basic Command:
+ssh username@ip-address
+
+Example:
+ssh ec2-user@54.123.45.67
+
+Generate SSH Key:
+ssh-keygen
+
+Copy Public Key:
+ssh-copy-id user@ip-address
